@@ -1,6 +1,7 @@
 source :rubygems
 
 gem 'rails',            '~> 3.1.0.rc4'
+gem 'mysql2'
 gem 'jquery-rails'
 gem 'uglifier'
 
@@ -16,12 +17,10 @@ gem 'friendly_id',      '~> 3.2.1'
 # RSpec needs to be in :development group to expose generators
 # and rake tasks without having to type RAILS_ENV=test.
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails',  '~> 2.6.0'
 end
 
 group :production, :staging do
-  gem 'pg', '~> 0.10'
   gem 'therubyracer'
 end
 
