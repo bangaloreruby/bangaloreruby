@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bangalore Ruby is a local community of Rubyists and enthusiasts of open source software.">
+    <meta name="viewport" content = "initial-scale = 0.35,user-scalable = yes">
+    <title>Bangalore Ruby Group</title>
+    <link rel="icon" href="/favicon.ico">
+    <%= stylesheet_link_tag    'application' %>
+    <%= javascript_include_tag 'application' %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <%= csrf_meta_tag %>
+    <%= render :partial => 'shared/ga' %>
+  </head>
+  <body class="<%= body_class %>">
+    <header>
+      <h1>
+        <%= link_to root_path do %>
+          <img src="/assets/ruby.png" alt="ruby">
+          Bangalore Ruby Group
+        <% end %>
+      </h1>
+    </header>
+    <%= render :partial => 'shared/nav' %>
+    <section id="container">
+      <%= render :partial => 'shared/flashes' -%>
+      <%= yield %>
+    </section>
+  </body>
+</html>

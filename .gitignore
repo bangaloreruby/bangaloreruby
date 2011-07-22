@@ -1,0 +1,12 @@
+.bundle
+.DS_Store
+db/*.sqlite3
+*.log
+tmp/
+*.swp
+*.pid
+config/database.yml
+all.css
+*.output
+*.dat
+git_remote_branch/
