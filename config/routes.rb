@@ -6,7 +6,5 @@ BangaloreRuby::Application.routes.draw do
   root :to => 'high_voltage/pages#show', :id => 'home'
   get '/hackfests' => 'high_voltage/pages#show', :id => 'hackfests', :as => 'hackfests'
   get '/calendar' => 'high_voltage/pages#show', :id => 'calendar', :as => 'calendar'
-#  resources :presentations, :only => [:index, :show]
-#  get '/presenters/leaders' => 'leader_board#index'
-#  resources :presenters, :only => [:show]
+  get '/people' => 'high_voltage/pages#show', :id => 'people', :as => 'people'
 end
