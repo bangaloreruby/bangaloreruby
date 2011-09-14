@@ -1,16 +1,27 @@
 source :rubygems
 
-gem 'rails',            '~> 3.1.0.rc5'
-gem 'mysql2'
-gem 'jquery-rails'
-gem 'uglifier'
+gem 'rails', '3.1.0'
 
-gem 'rake',             '~> 0.8.7'
-gem 'high_voltage',     '~> 0.9'
+# Bundle edge Rails instead:
+# gem 'rails',     :git => 'git://github.com/rails/rails.git'
+
+gem 'mysql2'
+
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails', "  ~> 3.1.0"
+  gem 'coffee-rails', "~> 3.1.0"
+  gem 'uglifier'
+end
+
 gem 'jquery-rails'
+
+gem 'high_voltage',     '~> 0.9'
+
 gem 'kaminari',         '~> 0.12.4'
-gem 'sass-rails', :git => 'https://github.com/rails/sass-rails.git', :ref => 'eee12e2e0bbfca56d458c82df47213e130ef5830'
-gem 'compass',    :git => 'https://github.com/chriseppstein/compass.git', :branch => 'rails31'
+gem "compass", "~> 0.11.5"
 gem 'simple_form',      '~> 1.4.0'
 gem 'friendly_id',      '~> 3.2.1'
 
