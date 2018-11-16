@@ -7,28 +7,28 @@ gem 'rails', '3.1.0'
 
 gem 'mysql2'
 
-  gem 'sass-rails', "  ~> 3.1.0"
+  gem 'sass-rails', '~> 3.1.1'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
 
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 1.0.14'
 
 gem 'high_voltage',     '~> 0.9'
 
-gem 'kaminari',         '~> 0.12.4'
+gem 'kaminari', '~> 0.12.4'
 gem "compass", "~> 0.11.5"
-gem 'simple_form',      '~> 1.4.0'
+gem 'simple_form', '~> 1.4.2'
 gem 'friendly_id',      '~> 3.2.1'
 
 # RSpec needs to be in :development group to expose generators
 # and rake tasks without having to type RAILS_ENV=test.
 group :development, :test do
-  gem 'rspec-rails',  '~> 2.6.0'
+  gem 'rspec-rails', '~> 2.6.1'
 end
 
 group :production, :staging do
@@ -41,7 +41,7 @@ group :test do
   gem 'capybara',           '~> 1.0.0'
   gem 'database_cleaner',   '~> 0.6.0'
   gem 'timecop',            '~> 0.3.5'
-  gem 'email_spec',         '~> 1.1'
+  gem 'email_spec', '~> 1.2', '>= 1.2.1'
   gem 'valid_attribute'
   gem 'launchy'
   gem 'simple-rss',         '~> 1.2.3'
