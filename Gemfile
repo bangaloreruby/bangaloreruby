@@ -20,7 +20,7 @@ gem 'jquery-rails'
 
 gem 'high_voltage',     '~> 0.9'
 
-gem 'kaminari',         '~> 0.12.4'
+gem 'kaminari', '~> 1.2.1'
 gem "compass", "~> 0.11.5"
 gem 'simple_form',      '~> 1.4.0'
 gem 'friendly_id',      '~> 3.2.1'
