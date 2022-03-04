@@ -44,7 +44,7 @@ GEM
       rack-test (>= 0.5.4)
       selenium-webdriver (~> 2.0)
       xpath (~> 0.1.4)
-    childprocess (0.5.9)
+    childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     chunky_png (1.2.1)
     coffee-rails (3.1.1)
@@ -69,7 +69,7 @@ GEM
     factory_girl_rails (1.0.1)
       factory_girl (~> 1.3)
       railties (>= 3.0.0)
-    ffi (1.9.14)
+    ffi (1.15.5)
     friendly_id (3.2.1.1)
       babosa (~> 0.3.0)
     fssm (0.2.7)
@@ -90,14 +90,16 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.0)
     mocha (0.9.8)
       rake
     multi_json (1.12.1)
     mysql2 (0.3.7)
-    nokogiri (1.10.8)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     polyglot (0.3.5)
+    racc (1.6.0)
     rack (1.3.10)
     rack-cache (1.0.3)
       rack (>= 0.4)
@@ -169,7 +171,7 @@ GEM
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
     valid_attribute (1.2.0)
-    websocket (1.2.3)
+    websocket (1.2.9)
     xpath (0.1.4)
       nokogiri (~> 1.3)
 
@@ -178,7 +180,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourne (~> 1.0)
-  capybara (~> 1.0.0)
+  capybara (~> 1.0.1)
   coffee-rails (~> 3.1.0)
   compass (~> 0.11.5)
   database_cleaner (~> 0.6.0)
@@ -201,4 +203,4 @@ DEPENDENCIES
   valid_attribute
 
 BUNDLED WITH
-   1.13.6
+   1.17.3
