@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'rails', '3.1.0'
+gem 'rails', '5.2.8.1'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -20,7 +20,7 @@ gem 'jquery-rails'
 
 gem 'high_voltage',     '~> 0.9'
 
-gem 'kaminari',         '~> 0.12.4'
+gem 'kaminari', '~> 0.12.4'
 gem "compass", "~> 0.11.5"
 gem 'simple_form',      '~> 1.4.0'
 gem 'friendly_id',      '~> 3.2.1'
