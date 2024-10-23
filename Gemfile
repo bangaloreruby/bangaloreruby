@@ -1,13 +1,13 @@
 source :rubygems
 
-gem 'rails', '3.1.0'
+gem 'rails', '6.1.7.9'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
 
-  gem 'sass-rails', "  ~> 3.1.0"
+  gem 'sass-rails', '~> 6.0.0'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,7 +20,7 @@ gem 'jquery-rails'
 
 gem 'high_voltage',     '~> 0.9'
 
-gem 'kaminari',         '~> 0.12.4'
+gem 'kaminari', '~> 0.13.0'
 gem "compass", "~> 0.11.5"
 gem 'simple_form',      '~> 1.4.0'
 gem 'friendly_id',      '~> 3.2.1'
