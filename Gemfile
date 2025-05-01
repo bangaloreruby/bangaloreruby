@@ -28,7 +28,7 @@ gem 'friendly_id',      '~> 3.2.1'
 # RSpec needs to be in :development group to expose generators
 # and rake tasks without having to type RAILS_ENV=test.
 group :development, :test do
-  gem 'rspec-rails',  '~> 2.6.0'
+  gem 'rspec-rails', '~> 8.0.0'
 end
 
 group :production, :staging do
